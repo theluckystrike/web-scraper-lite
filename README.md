@@ -1,10 +1,11 @@
 # Web Scraper Lite
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-blue?logo=google-chrome)](https://chrome.google.com/webstore)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-blue?logo=google-chrome)](https://chrome.google.com/webstore/detail/web-scraper-lite)
 [![Version](https://img.shields.io/badge/version-1.0.10-green.svg)](https://github.com/theluckystrike/web-scraper-lite)
-[![Users](https://img.shields.io/badge/users-5-orange.svg)](https://github.com/theluckystrike/web-scraper-lite)
-[![Rating](https://img.shields.io/badge/rating-★★★★★-yellow.svg)](https://github.com/theluckystrike/web-scraper-lite)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Discord](https://img.shields.io/badge/Discord-Zovo-blueviolet.svg?logo=discord)](https://discord.gg/zovo)
+[![Website](https://img.shields.io/badge/Website-zovo.one-blue)](https://zovo.one)
+[![GitHub Stars](https://img.shields.io/github/stars/theluckystrike/web-scraper-lite?style=social)](https://github.com/theluckystrike/web-scraper-lite)
 
 > Extract data from any webpage with ease. Free & open source.
 
@@ -114,3 +115,5 @@ npm run build
 ---
 
 Made with care by the Zovo team.
+
+Built by [Zovo](https://zovo.one)
