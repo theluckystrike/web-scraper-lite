@@ -70,6 +70,47 @@ See [LICENSE](LICENSE) for full details.
 - Report issues on [GitHub Issues](https://github.com/theluckystrike/web-scraper-lite/issues)
 - Contact: support@zovo.one
 
+## Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Fork the repository**
+2. **Create a feature branch**: `git checkout -b feature/my-feature`
+3. **Make your changes** and commit them: `git commit -m 'Add new feature'`
+4. **Push to the branch**: `git push origin feature/my-feature`
+5. **Open a Pull Request**
+
+### Development Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/theluckystrike/web-scraper-lite.git
+cd web-scraper-lite
+
+# Install dependencies
+npm install
+
+# Build the extension
+npm run build
+
+# Load in Chrome
+# Open chrome://extensions → Enable Developer Mode → Load unpacked
+```
+
+### Coding Standards
+
+- Use ESLint for JavaScript linting
+- Follow existing code style
+- Write comments for complex logic
+- Test your changes manually before submitting
+
+## See Also
+
+- [Zovo](https://zovo.one) - Developer tools and utilities
+- [Awesome Chrome Extensions Dev](https://github.com/theluckystrike/awesome-chrome-extensions-dev) - Curated list of Chrome extension development resources
+- [Chrome Extension Starter MV3](https://github.com/theluckystrike/chrome-extension-starter-mv3) - Production-ready Chrome extension template
+- [WebeXT Utilities](https://github.com/theluckystrike?tab=repositories&q=webext) - Collection of WebExtension components
+
 ---
 
 Made with care by the Zovo team.
