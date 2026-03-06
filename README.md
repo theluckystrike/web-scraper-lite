@@ -7,7 +7,7 @@
 [![Website](https://img.shields.io/badge/Website-zovo.one-blue)](https://zovo.one)
 [![GitHub Stars](https://img.shields.io/github/stars/theluckystrike/web-scraper-lite?style=social)](https://github.com/theluckystrike/web-scraper-lite)
 
-> Extract data from any webpage with ease. Free & open source.
+> Extract data from any webpage with ease. Open source by Zovo.
 
 **Web Scraper Lite** is a Chrome extension that makes web scraping simple and accessible. Point, click, and extract — no coding required. Perfect for researchers, marketers, data analysts, and anyone who needs to extract structured data from websites.
 
