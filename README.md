@@ -1,119 +1,79 @@
 # Web Scraper Lite
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-blue?logo=google-chrome)](https://chrome.google.com/webstore/detail/web-scraper-lite)
-[![Version](https://img.shields.io/badge/version-1.0.10-green.svg)](https://github.com/theluckystrike/web-scraper-lite)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Discord](https://img.shields.io/badge/Discord-Zovo-blueviolet.svg?logo=discord)](https://discord.gg/zovo)
-[![Website](https://img.shields.io/badge/Website-zovo.one-blue)](https://zovo.one)
-[![GitHub Stars](https://img.shields.io/github/stars/theluckystrike/web-scraper-lite?style=social)](https://github.com/theluckystrike/web-scraper-lite)
+A Chrome extension for extracting structured data from any webpage. Point at elements, click to select, preview results, and export to CSV or JSON. No coding required.
 
-> Extract data from any webpage with ease. Open source by Zovo.
+Built on Manifest V3. Works entirely in your browser with zero data collection.
 
-**Web Scraper Lite** is a Chrome extension that makes web scraping simple and accessible. Point, click, and extract — no coding required. Perfect for researchers, marketers, data analysts, and anyone who needs to extract structured data from websites.
 
-## Features
+WHAT IT DOES
 
-- **Point-and-Click Element Selector** - Click on any element on a webpage to select it for extraction
-- **Extract Text, Links, Images, and Tables** - Pull structured data from any website with ease
-- **CSS Selector Support** - Advanced users can write custom CSS selectors for precise targeting
-- **Export to CSV or JSON** - Download your extracted data in standard formats
-- **Preview Results Before Exporting** - See exactly what you're getting before you download
-- **Works on Any Website** - Compatible with all modern websites
+- Visual point-and-click element selector that highlights elements as you hover
+- Extracts text, links, images, and tables from any website
+- Custom CSS selectors for advanced targeting
+- Side panel interface for configuring scrapers and previewing results
+- Export extracted data to CSV or JSON
+- Save scraper templates for reuse across sessions
+- Scrape history with quick access to recent extractions
+- Free tier with monthly row limits, Pro tier with unlimited access
 
-## How It Works
 
-1. Click the extension icon while on any webpage
-2. Use the point-and-click selector to choose elements
-3. Preview the extracted data
-4. Export to CSV or JSON
+HOW TO USE
 
-## Permissions Explained
+1. Click the extension icon on any webpage
+2. Use the visual selector to pick elements, or write a CSS selector manually
+3. Preview extracted data in the side panel
+4. Export to CSV or JSON, or copy to clipboard
 
-| Permission | Why |
-|------------|-----|
-| `activeTab` | Access page content to extract data from the current tab |
-| `storage` | Save your custom selectors and preferences locally |
-| `clipboardWrite` | Copy extracted data to clipboard for quick access |
 
-## Privacy
+PERMISSIONS
 
-**Web Scraper Lite collects zero data.**
+| Permission | Reason |
+|------------|--------|
+| activeTab | Interact with the current tab to highlight and extract elements |
+| storage | Save templates, preferences, and scrape history locally |
+| scripting | Inject the element selector overlay onto web pages |
+| sidePanel | Power the side panel where you configure and preview scrapes |
+| Host permissions (all URLs) | Allow scraping on any website you choose |
 
-- Does NOT send any data to external servers
-- Does NOT track your browsing activity
-- Does NOT collect analytics or telemetry
-- All data extraction happens locally in your browser
-- Your selectors and preferences are stored only on your device
 
-See [PRIVACY.md](PRIVACY.md) for our complete privacy policy.
+PRIVACY
 
-## Installation
+Web Scraper Lite collects zero user data. All extraction, templates, history, and analytics stay on your device using Chrome's local storage API. Nothing is transmitted to external servers.
 
-Install from the [Chrome Web Store](https://chrome.google.com/webstore) or load unpacked from source:
+The only network call is license verification for Pro users, handled through Zovo. That sends your license key, extension ID, and a session ID for fraud prevention. No scraped content, URLs, or browsing data ever leaves your browser.
+
+Full details in PRIVACY.md and privacy-policy.html.
+
+
+INSTALL
+
+From the Chrome Web Store (link coming soon), or load from source:
 
 1. Clone this repository
-2. Open `chrome://extensions` in Chrome
-3. Enable "Developer mode"
-4. Click "Load unpacked" and select the extension folder
+2. Open chrome://extensions in Chrome
+3. Enable Developer mode
+4. Click Load unpacked and select the extension folder
 
-## Built by Zovo
 
-Part of the [Zovo](https://zovo.one) developer tools family.
+PRO UPGRADE
 
-## License
+Pro removes the monthly row limit and unlocks unlimited scraping. Managed through Zovo at zovo.one with secure payment processing. License status is cached locally and verified roughly once per hour.
 
-MIT License - Copyright (c) 2026 Zovo
 
-See [LICENSE](LICENSE) for full details.
+CONTRIBUTING
 
-## Support
+Contributions welcome. See CONTRIBUTING.md for guidelines, development setup, and coding standards.
 
-- Report issues on [GitHub Issues](https://github.com/theluckystrike/web-scraper-lite/issues)
-- Contact: support@zovo.one
+Report bugs or request features on GitHub Issues:
+https://github.com/theluckystrike/web-scraper-lite/issues
 
-## Contributing
 
-Contributions are welcome! Here's how you can help:
+LICENSE
 
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/my-feature`
-3. **Make your changes** and commit them: `git commit -m 'Add new feature'`
-4. **Push to the branch**: `git push origin feature/my-feature`
-5. **Open a Pull Request**
+MIT License, Copyright (c) 2025 theluckystrike. See LICENSE for full text.
 
-### Development Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/theluckystrike/web-scraper-lite.git
-cd web-scraper-lite
-
-# Install dependencies
-npm install
-
-# Build the extension
-npm run build
-
-# Load in Chrome
-# Open chrome://extensions → Enable Developer Mode → Load unpacked
-```
-
-### Coding Standards
-
-- Use ESLint for JavaScript linting
-- Follow existing code style
-- Write comments for complex logic
-- Test your changes manually before submitting
-
-## See Also
-
-- [Zovo](https://zovo.one) - Developer tools and utilities
-- [Awesome Chrome Extensions Dev](https://github.com/theluckystrike/awesome-chrome-extensions-dev) - Curated list of Chrome extension development resources
-- [Chrome Extension Starter MV3](https://github.com/theluckystrike/chrome-extension-starter-mv3) - Production-ready Chrome extension template
-- [WebeXT Utilities](https://github.com/theluckystrike?tab=repositories&q=webext) - Collection of WebExtension components
 
 ---
 
-Made with care by the Zovo team.
-
-Built by [Zovo](https://zovo.one)
+Web Scraper Lite is a zovo.one project.
+https://zovo.one
